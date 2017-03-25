@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -192,9 +193,7 @@ public class TransitivityReductionMat {
 			matrix[v1][v2] = 1;
 		}
 
-		public void removeEdge(int v1, int v2) {
-			matrix[v1][v2] = 0;
-		}
+	
 
 	}
 }
